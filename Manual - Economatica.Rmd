@@ -5,7 +5,12 @@ date: "2024-08-05"
 output: html_document
 ---
 
-# Introdução ao Economatica
+#Prefácio
+
+sumário
+
+
+# Aspectos conceituais introdutórios do Economatica
 
 ## O que é Economatica?
 
@@ -14,13 +19,13 @@ Com presença em vários países da América Latina, incluindo Brasil, Argentina
 
 ## Acesso ao Economatica
 
-Para acessar o Economatica com o e-mail institucional da UFERSA, basta clicar na **segunda opção** abaixo:	
+Para acessar o Economatica, primeiramente entramos no endereço https://economatica.com. No canto superior direito, apertamos no botão **Login**, e em seguida basta clicar na **segunda opção** abaixo:	
 
 ```{r echo=FALSE}
 knitr::include_graphics("acessoA.png")
 ```
 
-Após isso, a tela de login aparecerá, e basta inserir seu e-mail institucional e entrar no Economatica. É importante ressaltar que o Economatica é uma plataforma paga, e o acesso com o e-mail institucional é possível apenas dentro do domínio da UFERSA.
+Após isso, a tela de login aparecerá, e basta inserir seu **e-mail institucional** e entrar no Economatica. É importante ressaltar que o Economatica é uma plataforma paga, e o acesso com o e-mail institucional é possível apenas dentro do domínio da UFERSA.
 
 ```{r echo=FALSE}
 knitr::include_graphics("acessoB.png")
@@ -69,7 +74,7 @@ São as janelas que apresentam cada uma das informações que compõem a base de
 knitr::include_graphics("basedados.png")
 ```
 
-# Selecionando a Amostra
+# Etapa 1 - Selecionando a Amostra
 
 Para melhor demonstração das funcionalidades de Screenig e Matrixx, utilizaremos um caso prático: vamos criar uma amostra com as ações da Bovespa, com exceção das financeiras, em um período de análise de 2010 à 2023, onde obteremos seu Ativo Total e seu Patrimônio Líquido (PL). 
 Para isso, após selecionarmos a opção de **Screening**, teremos a seguinte tela:
@@ -88,20 +93,21 @@ Após clicar em **Abrir**, definiremos os parâmetros da amostra desejada.
 knitr::include_graphics("definirparamA.png")
 ```
 
-## Aplicação de Filtros para Seleção de Empresas e Setores
+# Etapa 2 - Aplicação de Filtros para Seleção de Empresas e Setores
 
 É possível realizar a aplicação de filtros na amostra, onde obteremos apenas os dados desejados e apenas das empresas que são necessárias para a análise.
 
 ```{r echo=FALSE}
 knitr::include_graphics("filtrosA.png")
 ```
+
 ```{r echo=FALSE}
 knitr::include_graphics("filtrosB.png")
 ```
 
 Para maior facilidade da análise, é recomendado marcar a opção **mostrar apenas uma classe por empresa**, onde teremos apenas um tipo de ação para cada entidade.
 
-## Coleta de Dados
+# Etapa 3 - Seleção de Variáveis
 
 Após a aplicação dos filtros, veremos o `screening`, similar ao apresentado abaixo:
 
@@ -137,7 +143,10 @@ Aqui vemos a tela de **Vários Parâmetros**:
 knitr::include_graphics("parametros.png")
 ```
 
+# Etapa 4 - Coleta dos dados e estruturação de dados em painel
+
 Concluídas todas as definições de parâmetros, teremos nosso Matrixx, onde é possível dividir a tela com o Screening, e ao selecionar a empresa no screening, seus dados serão apresentados no Matrixx.
+(explicar melhor como chegar na tela dividida).
 
 ```{r echo=FALSE}
 knitr::include_graphics("teladividida.png")
@@ -165,7 +174,7 @@ knitr::include_graphics("dadosmatrixx.png")
 
 Nas colunas temos o tipo de dado requerido e as empresas selecionadas, e nas linhas os anos de análise.
 
-## Exportação de Dados
+# Etapa 5 - Exportação de Dados
 
 No Economatica, é possível realizar a exportação dos dados coletados para outras ferramentas de análise, possibilitando uma análise mais aprofundadada. Vários formatos são suportados, mas os mais utilizados são em CSV e XLSX.
 
