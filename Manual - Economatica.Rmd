@@ -71,7 +71,8 @@ knitr::include_graphics("basedados.png")
 
 # Selecionando a Amostra
 
-Para melhor demonstração das funcionalidades de Screenig e Matrixx, utilizaremos um caso prático, com ações da Bovespa, com exceção das financeiras, em um período de análise de 2010 à 2023, onde obteremos seu Ativo Total e seu Patrimônio Líquido. Para isso, após selecinarmos a opção de Screening, teremos a seguinte tela:
+Para melhor demonstração das funcionalidades de Screenig e Matrixx, utilizaremos um caso prático: vamos criar uma amostra com as ações da Bovespa, com exceção das financeiras, em um período de análise de 2010 à 2023, onde obteremos seu Ativo Total e seu Patrimônio Líquido (PL). 
+Para isso, após selecionarmos a opção de **Screening**, teremos a seguinte tela:
 
 ```{r echo=FALSE}
 knitr::include_graphics("screeningA.png")
@@ -81,16 +82,15 @@ knitr::include_graphics("screeningA.png")
 knitr::include_graphics("screeningB.png")
 ```
 
-Após clicar em "Abrir", definremos os parâmetros da amostra desejada.
+Após clicar em **Abrir**, definiremos os parâmetros da amostra desejada.
 
 ```{r echo=FALSE}
 knitr::include_graphics("definirparamA.png")
 ```
 
-
 ## Aplicação de Filtros para Seleção de Empresas e Setores
 
-É possível realizar a aplicação de filtros na amostra, onde obteremos apenas os dados desejadas e apenas das empresas que são necessárias para a análise.
+É possível realizar a aplicação de filtros na amostra, onde obteremos apenas os dados desejados e apenas das empresas que são necessárias para a análise.
 
 ```{r echo=FALSE}
 knitr::include_graphics("filtrosA.png")
@@ -99,17 +99,17 @@ knitr::include_graphics("filtrosA.png")
 knitr::include_graphics("filtrosB.png")
 ```
 
-Para maior facilidade da análise, é recomendado marcar a opção "mostrar apenas uma classe por empresa", onde teremos apenas um tipo de ação para cada entidade.
+Para maior facilidade da análise, é recomendado marcar a opção **mostrar apenas uma classe por empresa**, onde teremos apenas um tipo de ação para cada entidade.
 
 ## Coleta de Dados
 
-Após a aplicação dos filtros, veremos o screening, similar ao apresentado abaixo:
+Após a aplicação dos filtros, veremos o `screening`, similar ao apresentado abaixo:
 
 ```{r echo=FALSE}
 knitr::include_graphics("screeningC.png")
 ```
 
-Após isso, podemos prosseguir para a elaboração do Matrixx, que pode ser feito de duas maneiras, na primeira, escolheremos item do Matrixx pelo ativo corrente. Para tal, definiremos os parâmetros desejados, no caso em questão, queremos o Ativo Total e o PL das entidades.
+Depois disso, podemos prosseguir para a elaboração do `Matrixx`, que pode ser feito de duas maneiras: na primeira, escolheremos item do Matrixx pelo ativo corrente. Para tal, definiremos os parâmetros desejados. No caso em questão, queremos o Ativo Total e o PL das entidades.
 
 ```{r echo=FALSE}
 knitr::include_graphics("definirparamdf.png")
@@ -119,19 +119,19 @@ knitr::include_graphics("definirparamdf.png")
 knitr::include_graphics("definirparamativo.png")
 ```
 
-Depois da definição dos parâmetros iniciais, escolheremos a opção "Vários Parâmetros", onde definiremos o horizonte temporal da amostra, desde sua periodicidade, data de início e fim da coleta, além da moeda desejada para a análise, no nosso caso, o Real.
+Depois da definição dos parâmetros iniciais, escolheremos a opção **Vários Parâmetros**, onde definiremos o horizonte temporal da amostra, desde sua periodicidade, data de início e fim da coleta, além da moeda desejada para a análise, no nosso caso, o Real.
 
 ```{r echo=FALSE}
 knitr::include_graphics("export.png")
 ```
 
-Cabe ressaltar, que também é possível aplicar filtros baseados em colunas específicas, conforme mostrado abaixo:
+Cabe ressaltar que também é possível aplicar filtros baseados em colunas específicas, conforme mostrado abaixo:
 
 ```{r echo=FALSE}
 knitr::include_graphics("inserirfiltro.png")
 ```
 
-Aqui vemos a tela de "Vários Parâmetros":
+Aqui vemos a tela de **Vários Parâmetros**:
 
 ```{r echo=FALSE}
 knitr::include_graphics("parametros.png")
@@ -143,7 +143,7 @@ Concluídas todas as definições de parâmetros, teremos nosso Matrixx, onde é
 knitr::include_graphics("teladividida.png")
 ```
 
-Mas há também outro modo de criar o Matrixx, utilizando todos os dados presentes no Screening, através das opções abaixo, marcando a opção "mostrar itens do Screening" e transferindo os dados para dentro do Matrixx.
+Mas há também outro modo de criar o Matrixx, utilizando todos os dados presentes no Screening, através das opções abaixo: marcando a opção **mostrar itens do Screening** e transferindo os dados para dentro do Matrixx.
 
 ```{r echo=FALSE}
 knitr::include_graphics("definirparamativo.png")
