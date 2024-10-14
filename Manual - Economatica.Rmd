@@ -83,11 +83,6 @@ em seguida
 knitr::include_graphics("definirparamA.png")
 ```
 
-e depois 
-
-```{r echo=FALSE}
-knitr::include_graphics("definirparamB.png")
-```
 
 ## Aplicação de Filtros para Seleção de Empresas e Setores
 ```{r echo=FALSE}
