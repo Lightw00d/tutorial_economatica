@@ -162,8 +162,8 @@ Perceba que quando queremos *excluir* determinado tipo de dado, filtraremos por 
 
 Existe ainda uma terceira opção, "não é nulo", onde *qualquer tipo de dado* será apresentado. Esta opção é particularmente útil no filtro Ativo/Cancelado, que retorna se determinado ativo, ação ou empresa ainda está em atividade. Em determinados tipos de análise, como a nossa, são necessários os dados de ativos descontinuados. Um exemplo seria analisar níveis de solvência de determinado setor: se excluíssemos os dados das empresas canceladas, perderíamos dados substanciais para a correta análise da amostra.
 
-Ainda é importante destacar que para maior facilidade da análise, é recomendado marcar a opção *mostrar apenas uma classe por empresa, onde teremos apenas um tipo de ação para cada entidade. Com isso, selecione **OK*. 
-Contudo, Se a sua pesquisa depende de variáveis econômico-financeiras que variam dependendo do *Tipo de Ação, ou seja, *Preferenciais, Ordinárias ou Units, esta opção pode prejudicar a robustez das informações, portanto, recomenda-se não marcar a opção. Caso contrário, marcar a opção *mostrar apenas uma classe por empresa* vai diminuir redundâncias na base de dados.
+Ainda é importante destacar que para maior facilidade da análise, é recomendado marcar a opção *mostrar apenas uma classe por empresa,* onde teremos apenas um tipo de ação para cada entidade. Com isso, selecione *OK*. 
+Contudo, Se a sua pesquisa depende de variáveis econômico-financeiras que variam dependendo do Tipo de Ação, ou seja, *Preferenciais, Ordinárias ou Units*, esta opção pode prejudicar a robustez das informações, portanto, recomenda-se não marcar a opção. Caso contrário, marcar a opção *mostrar apenas uma classe por empresa* vai diminuir redundâncias na base de dados.
 
 ```{r echo=FALSE}
 knitr::include_graphics("filtrosB.png")
