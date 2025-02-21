@@ -259,6 +259,30 @@ knitr::include_graphics("teladividida.png")
 
 Repare que, ao clicar em outra empresa no `Screening`, os dados no `Matrixx` mudam de acordo com a empresa correspondente.
 
+Finalizada a coleta, é possível *salvar* os dados para acessar a qualquer momento. Para salvar os dados da coleta, basta clicar no ícone de disquete:
+
+```{r echo=FALSE}
+knitr::include_graphics("apertargravar.jpeg")
+```
+
+Após isso, basta renomear o arquivo como o usuário desejar e apertar em salvar.
+
+```{r echo=FALSE}
+knitr::include_graphics("gravartela.jpeg")
+```
+
+E para abrir uma tela salva anteriormente, utilizamos a ferramenta com ícone de pasta, conforme mostrado abaixo:
+
+```{r echo=FALSE}
+knitr::include_graphics("apertarcarregar.jpeg")
+```
+
+Finalmente, é só pesquisar o arquivo e clicar em abrir.
+
+```{r echo=FALSE}
+knitr::include_graphics("carregartela.jpeg")
+```
+
 # Etapa 5 - Exportação de Dados
 
 Por fim, podemos *exportar* os dados coletados para realizar a análise em outros softwares mais especializados, proporcionando uma análise mais aprofundada. Para realizar a exportação, selecionamos a opção destacada em vermelho, no canto superior direito.
