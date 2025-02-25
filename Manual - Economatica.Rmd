@@ -16,7 +16,7 @@ Este manual visa fornecer a alunos de graduação, noções de como utilizar a b
 ## O que é Economatica?
 
 A Economatica é uma plataforma de análise financeira focada em mercados de capitais, amplamente utilizada por investidores, analistas e profissionais de finanças. Fundada em 1986, a plataforma oferece ferramentas para a avaliação de **ações**, **índices econômicos** e **empresas**, permitindo a análise de dados históricos e projeções. 
-Com presença em vários países da América Latina, incluindo Brasil, Argentina e México, a Economática é reconhecida pela precisão e abrangência de suas informações financeiras. A plataforma é uma referência importante para decisões de investimento e análise econômica.
+Com presença em vários países da América Latina, incluindo Brasil, Argentina e México, a Economatica é reconhecida pela precisão e abrangência de suas informações financeiras. A plataforma é uma referência importante para decisões de investimento e análise econômica.
 
 ## Acesso ao Economatica
 
@@ -47,7 +47,7 @@ O Economatica possui diversas funcionalidades para auxliar o usuário a obter os
 
 ### Ferramentas de análise
 
-As ferramentas de análise são as janelas que, usando a base de dados e os indicadores, permitem ao usuário efetivamente manipular os dados e chegar a conclusões. Estas são as janelas que mais agregam valor ao sistema Economática e que devem ser mais intensamente exploradas pelos usuários.
+As ferramentas de análise são as janelas que, usando a base de dados e os indicadores, permitem ao usuário efetivamente manipular os dados e chegar a conclusões. Estas são as janelas que mais agregam valor ao sistema Economatica e que devem ser mais intensamente exploradas pelos usuários.
 Dentre elas, as que iremos utilizar mais serão as ferramentas de `Screening` e `Matrixx`
 
 ```{r echo=FALSE}
@@ -170,14 +170,15 @@ knitr::include_graphics("filtrosB.png")
 ```
 
 
-Também cabe ressaltar que é possível aplicar filtros baseados em colunas específicas: ao clicar com o botão direito do mouse em cima de uma das colunas do **Screening**, a seguinte seleção será mostrada:
+Também cabe ressaltar que é possível aplicar filtros baseados em colunas específicas. Ao clicar com o botão direito do mouse em cima de uma das colunas do `Screening`, a seguinte seleção será mostrada:
 
 ```{r echo=FALSE}
 knitr::include_graphics("inserirfiltro.png")
 ```
 
 
-Basta selecionar a opção "inserir filtro baseado nesta coluna", será possível também organizar toda a seleção de acordo com o filtro selecionado. Por padrão, o Economatica trás as empresas em ordem alfabética, mas é possível filtrar para que a ordem se estabeleca de acordo com o filtro e coluna desejados.
+Basta selecionar a opção "inserir filtro baseado nesta coluna". 
+Também é possível organizar toda a seleção de acordo com o filtro selecionado. Por padrão, o Economatica trás as empresas em ordem alfabética, mas é possível filtrar para que a ordem se estabeleça de acordo com o filtro e coluna desejados.
 
 # Etapa 3 - Seleção de Variáveis
 
@@ -195,7 +196,7 @@ Primeiro iremos voltar para a tela onde anteriormente selecionamos o `Screening`
 knitr::include_graphics("principaisfuncB.png")
 ```
 
-Para elaborar o `Matrixx`, devemos definir os parâmetros desejados. No nosso exemplo, queremos o Ativo Total e o PL das entidades. 
+Para elaborar o `Matrixx`, devemos definir os parâmetros desejados. Assim como no `Screening`, para definir os parâmetros, clicamos em **Criar coluna**. No nosso exemplo, queremos o Ativo Total e o PL das entidades. 
 
 Para definir os parâmetros, primeiramente vamos escolher as informações desejadas: Demonstrativos financeiros → Principais Itens → Ativo Total e depois Patrimônio Líquido.
 
@@ -225,14 +226,14 @@ knitr::include_graphics("export.png")
 ```
 
 
-Aqui vemos a tela de **Vários Parâmetros**, onde definiremos o horizonte temporal da amostra, desde sua periodicidade, data de início e fim da coleta, além da moeda desejada para a análise, no nosso caso, o Real:
+Aqui vemos a tela de **Vários Parâmetros**, onde definiremos o horizonte temporal da amostra: sua periodicidade, data de início e de fim da coleta. Também definiremos a moeda desejada para a análise, no nosso caso, o Real. Você pode marcar qualquer uma das opções em *mostrar no cabeçalho da coluna*, isso não influenciará a amostra.
 
 ```{r echo=FALSE}
 knitr::include_graphics("parametros.png")
 ```
 
 
-Nossa análise se estende do dia 1° de janeiro de 2010 até 31 de dezembro de 2023, com periodicidade anual.
+Nossa análise se estende do dia 1° de janeiro de 2010 até 31 de dezembro de 2023, com periodicidade anual. 
 
 # Etapa 4 - Coleta dos dados e estruturação de dados em painel
 
